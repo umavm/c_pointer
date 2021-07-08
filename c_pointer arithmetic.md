@@ -1,12 +1,12 @@
-**Pointer Arithmetic in C**
+# **Pointer Arithmetic in C**
 
 We can perform arithmetic operations on the pointers like addition, subtraction, etc. However, as we know that pointer contains the address, the result of an arithmetic operation performed on the pointer will also be a pointer if the other operand is of type integer. In pointer-from-pointer subtraction, the result will be an integer value. Following arithmetic operations are possible on the pointer in C language:
 
-## Increment
-## Decrement
-## Addition
-## Subtraction
-## Comparison
+ ## Increment
+ ## Decrement
+ ## Addition
+ ## Subtraction
+ ## Comparison
 
 ## Incrementing Pointer in C
 If we increment a pointer by 1, the pointer will start pointing to the immediate next location. This is somewhat different from the general arithmetic since the value of the pointer will get increased by the size of the data type to which the pointer is pointing.
